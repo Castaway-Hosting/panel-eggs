@@ -29,7 +29,7 @@
     },
     "variables": [
         {
-            "name": "fivem license",
+            "name": "FiveM License",
             "description": "You must have a new generated FiveM license key before starting the server. Get your keys at https:\/\/keymaster.fivem.net\/",
             "env_variable": "FIVEM_LICENSE",
             "default_value": "EMPTY",
@@ -56,7 +56,7 @@
             "rules": "required|string"
         },
         {
-            "name": "fivem version",
+            "name": "FiveM Version",
             "description": "The fivem version that is to be installed. Invalid versions will default to latest.\r\n\r\nAn example is `1383-e5ea040353ce1b8bc86e37982bf5d888938e3096`\r\n\r\nYou can get the latest version from here - https:\/\/runtime.fivem.net\/artifacts\/fivem\/build_proot_linux\/master\/",
             "env_variable": "FIVEM_VERSION",
             "default_value": "latest",
